@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281A6767252C815A005B86AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6766252C815A005B86AB /* AppDelegate.swift */; };
+		281A6769252C815A005B86AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6768252C815A005B86AB /* SceneDelegate.swift */; };
+		281A676B252C815A005B86AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A676A252C815A005B86AB /* ViewController.swift */; };
+		281A676E252C815A005B86AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281A676C252C815A005B86AB /* Main.storyboard */; };
+		281A6770252C815E005B86AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281A676F252C815E005B86AB /* Assets.xcassets */; };
+		281A6773252C815E005B86AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281A6771252C815E005B86AB /* LaunchScreen.storyboard */; };
+		281A677E252C815F005B86AB /* HW5___LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A677D252C815E005B86AB /* HW5___LockTests.swift */; };
+		281A6789252C815F005B86AB /* HW5___LockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6788252C815F005B86AB /* HW5___LockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281A677A252C815E005B86AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281A675B252C815A005B86AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281A6762252C815A005B86AB;
+			remoteInfo = "HW5 - Lock";
+		};
+		281A6785252C815F005B86AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281A675B252C815A005B86AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281A6762252C815A005B86AB;
+			remoteInfo = "HW5 - Lock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281A6763252C815A005B86AB /* HW5 - Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW5 - Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		281A6766252C815A005B86AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		281A6768252C815A005B86AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		281A676A252C815A005B86AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		281A676D252C815A005B86AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281A676F252C815E005B86AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281A6772252C815E005B86AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		281A6774252C815E005B86AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281A6779252C815E005B86AB /* HW5 - LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW5 - LockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		281A677D252C815E005B86AB /* HW5___LockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW5___LockTests.swift"; sourceTree = "<group>"; };
+		281A677F252C815F005B86AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281A6784252C815F005B86AB /* HW5 - LockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW5 - LockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		281A6788252C815F005B86AB /* HW5___LockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW5___LockUITests.swift"; sourceTree = "<group>"; };
+		281A678A252C815F005B86AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281A6760252C815A005B86AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281A6776252C815E005B86AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281A6781252C815F005B86AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281A675A252C815A005B86AB = {
+			isa = PBXGroup;
+			children = (
+				281A6765252C815A005B86AB /* HW5 - Lock */,
+				281A677C252C815E005B86AB /* HW5 - LockTests */,
+				281A6787252C815F005B86AB /* HW5 - LockUITests */,
+				281A6764252C815A005B86AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281A6764252C815A005B86AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281A6763252C815A005B86AB /* HW5 - Lock.app */,
+				281A6779252C815E005B86AB /* HW5 - LockTests.xctest */,
+				281A6784252C815F005B86AB /* HW5 - LockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281A6765252C815A005B86AB /* HW5 - Lock */ = {
+			isa = PBXGroup;
+			children = (
+				281A6766252C815A005B86AB /* AppDelegate.swift */,
+				281A6768252C815A005B86AB /* SceneDelegate.swift */,
+				281A676A252C815A005B86AB /* ViewController.swift */,
+				281A676C252C815A005B86AB /* Main.storyboard */,
+				281A676F252C815E005B86AB /* Assets.xcassets */,
+				281A6771252C815E005B86AB /* LaunchScreen.storyboard */,
+				281A6774252C815E005B86AB /* Info.plist */,
+			);
+			path = "HW5 - Lock";
+			sourceTree = "<group>";
+		};
+		281A677C252C815E005B86AB /* HW5 - LockTests */ = {
+			isa = PBXGroup;
+			children = (
+				281A677D252C815E005B86AB /* HW5___LockTests.swift */,
+				281A677F252C815F005B86AB /* Info.plist */,
+			);
+			path = "HW5 - LockTests";
+			sourceTree = "<group>";
+		};
+		281A6787252C815F005B86AB /* HW5 - LockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				281A6788252C815F005B86AB /* HW5___LockUITests.swift */,
+				281A678A252C815F005B86AB /* Info.plist */,
+			);
+			path = "HW5 - LockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281A6762252C815A005B86AB /* HW5 - Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281A678D252C815F005B86AB /* Build configuration list for PBXNativeTarget "HW5 - Lock" */;
+			buildPhases = (
+				281A675F252C815A005B86AB /* Sources */,
+				281A6760252C815A005B86AB /* Frameworks */,
+				281A6761252C815A005B86AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW5 - Lock";
+			productName = "HW5 - Lock";
+			productReference = 281A6763252C815A005B86AB /* HW5 - Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281A6778252C815E005B86AB /* HW5 - LockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281A6790252C815F005B86AB /* Build configuration list for PBXNativeTarget "HW5 - LockTests" */;
+			buildPhases = (
+				281A6775252C815E005B86AB /* Sources */,
+				281A6776252C815E005B86AB /* Frameworks */,
+				281A6777252C815E005B86AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281A677B252C815E005B86AB /* PBXTargetDependency */,
+			);
+			name = "HW5 - LockTests";
+			productName = "HW5 - LockTests";
+			productReference = 281A6779252C815E005B86AB /* HW5 - LockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		281A6783252C815F005B86AB /* HW5 - LockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281A6793252C815F005B86AB /* Build configuration list for PBXNativeTarget "HW5 - LockUITests" */;
+			buildPhases = (
+				281A6780252C815F005B86AB /* Sources */,
+				281A6781252C815F005B86AB /* Frameworks */,
+				281A6782252C815F005B86AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281A6786252C815F005B86AB /* PBXTargetDependency */,
+			);
+			name = "HW5 - LockUITests";
+			productName = "HW5 - LockUITests";
+			productReference = 281A6784252C815F005B86AB /* HW5 - LockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281A675B252C815A005B86AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					281A6762252C815A005B86AB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					281A6778252C815E005B86AB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 281A6762252C815A005B86AB;
+					};
+					281A6783252C815F005B86AB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 281A6762252C815A005B86AB;
+					};
+				};
+			};
+			buildConfigurationList = 281A675E252C815A005B86AB /* Build configuration list for PBXProject "HW5 - Lock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281A675A252C815A005B86AB;
+			productRefGroup = 281A6764252C815A005B86AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281A6762252C815A005B86AB /* HW5 - Lock */,
+				281A6778252C815E005B86AB /* HW5 - LockTests */,
+				281A6783252C815F005B86AB /* HW5 - LockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281A6761252C815A005B86AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281A6773252C815E005B86AB /* LaunchScreen.storyboard in Resources */,
+				281A6770252C815E005B86AB /* Assets.xcassets in Resources */,
+				281A676E252C815A005B86AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281A6777252C815E005B86AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281A6782252C815F005B86AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281A675F252C815A005B86AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281A676B252C815A005B86AB /* ViewController.swift in Sources */,
+				281A6767252C815A005B86AB /* AppDelegate.swift in Sources */,
+				281A6769252C815A005B86AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281A6775252C815E005B86AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281A677E252C815F005B86AB /* HW5___LockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281A6780252C815F005B86AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281A6789252C815F005B86AB /* HW5___LockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281A677B252C815E005B86AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281A6762252C815A005B86AB /* HW5 - Lock */;
+			targetProxy = 281A677A252C815E005B86AB /* PBXContainerItemProxy */;
+		};
+		281A6786252C815F005B86AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281A6762252C815A005B86AB /* HW5 - Lock */;
+			targetProxy = 281A6785252C815F005B86AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		281A676C252C815A005B86AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281A676D252C815A005B86AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281A6771252C815E005B86AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281A6772252C815E005B86AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281A678B252C815F005B86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		281A678C252C815F005B86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281A678E252C815F005B86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6332547AA;
+				INFOPLIST_FILE = "HW5 - Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tkachenkosj.HW5---Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		281A678F252C815F005B86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6332547AA;
+				INFOPLIST_FILE = "HW5 - Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tkachenkosj.HW5---Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		281A6791252C815F005B86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6332547AA;
+				INFOPLIST_FILE = "HW5 - LockTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tkachenkosj.HW5---LockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW5 - Lock.app/HW5 - Lock";
+			};
+			name = Debug;
+		};
+		281A6792252C815F005B86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6332547AA;
+				INFOPLIST_FILE = "HW5 - LockTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tkachenkosj.HW5---LockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW5 - Lock.app/HW5 - Lock";
+			};
+			name = Release;
+		};
+		281A6794252C815F005B86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6332547AA;
+				INFOPLIST_FILE = "HW5 - LockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tkachenkosj.HW5---LockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW5 - Lock";
+			};
+			name = Debug;
+		};
+		281A6795252C815F005B86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6332547AA;
+				INFOPLIST_FILE = "HW5 - LockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tkachenkosj.HW5---LockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW5 - Lock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281A675E252C815A005B86AB /* Build configuration list for PBXProject "HW5 - Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281A678B252C815F005B86AB /* Debug */,
+				281A678C252C815F005B86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281A678D252C815F005B86AB /* Build configuration list for PBXNativeTarget "HW5 - Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281A678E252C815F005B86AB /* Debug */,
+				281A678F252C815F005B86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281A6790252C815F005B86AB /* Build configuration list for PBXNativeTarget "HW5 - LockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281A6791252C815F005B86AB /* Debug */,
+				281A6792252C815F005B86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281A6793252C815F005B86AB /* Build configuration list for PBXNativeTarget "HW5 - LockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281A6794252C815F005B86AB /* Debug */,
+				281A6795252C815F005B86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281A675B252C815A005B86AB /* Project object */;
+}
