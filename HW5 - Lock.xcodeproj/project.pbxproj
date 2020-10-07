@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		281A6767252C815A005B86AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6766252C815A005B86AB /* AppDelegate.swift */; };
 		281A6769252C815A005B86AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6768252C815A005B86AB /* SceneDelegate.swift */; };
-		281A676B252C815A005B86AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A676A252C815A005B86AB /* ViewController.swift */; };
+		281A676B252C815A005B86AB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A676A252C815A005B86AB /* LogInViewController.swift */; };
 		281A676E252C815A005B86AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281A676C252C815A005B86AB /* Main.storyboard */; };
 		281A6770252C815E005B86AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281A676F252C815E005B86AB /* Assets.xcassets */; };
 		281A6773252C815E005B86AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281A6771252C815E005B86AB /* LaunchScreen.storyboard */; };
 		281A677E252C815F005B86AB /* HW5___LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A677D252C815E005B86AB /* HW5___LockTests.swift */; };
 		281A6789252C815F005B86AB /* HW5___LockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6788252C815F005B86AB /* HW5___LockUITests.swift */; };
+		28E03B47252DAC9300CEA767 /* UnLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E03B46252DAC9300CEA767 /* UnLockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		281A6763252C815A005B86AB /* HW5 - Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW5 - Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281A6766252C815A005B86AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		281A6768252C815A005B86AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		281A676A252C815A005B86AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		281A676A252C815A005B86AB /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		281A676D252C815A005B86AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		281A676F252C815E005B86AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281A6772252C815E005B86AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		281A6784252C815F005B86AB /* HW5 - LockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW5 - LockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281A6788252C815F005B86AB /* HW5___LockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW5___LockUITests.swift"; sourceTree = "<group>"; };
 		281A678A252C815F005B86AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E03B46252DAC9300CEA767 /* UnLockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnLockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,11 @@
 		281A6765252C815A005B86AB /* HW5 - Lock */ = {
 			isa = PBXGroup;
 			children = (
-				281A6766252C815A005B86AB /* AppDelegate.swift */,
-				281A6768252C815A005B86AB /* SceneDelegate.swift */,
-				281A676A252C815A005B86AB /* ViewController.swift */,
-				281A676C252C815A005B86AB /* Main.storyboard */,
-				281A676F252C815E005B86AB /* Assets.xcassets */,
-				281A6771252C815E005B86AB /* LaunchScreen.storyboard */,
 				281A6774252C815E005B86AB /* Info.plist */,
+				28E03B4C252DACA900CEA767 /* View */,
+				28E03B4D252DACB400CEA767 /* Controller */,
+				28E03B4E252DAD3C00CEA767 /* Resourses */,
+				28E03B4F252DAD7000CEA767 /* Supporting files */,
 			);
 			path = "HW5 - Lock";
 			sourceTree = "<group>";
@@ -126,6 +126,41 @@
 				281A678A252C815F005B86AB /* Info.plist */,
 			);
 			path = "HW5 - LockUITests";
+			sourceTree = "<group>";
+		};
+		28E03B4C252DACA900CEA767 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				281A676C252C815A005B86AB /* Main.storyboard */,
+				281A6771252C815E005B86AB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28E03B4D252DACB400CEA767 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				281A676A252C815A005B86AB /* LogInViewController.swift */,
+				28E03B46252DAC9300CEA767 /* UnLockViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28E03B4E252DAD3C00CEA767 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				281A676F252C815E005B86AB /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		28E03B4F252DAD7000CEA767 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				281A6766252C815A005B86AB /* AppDelegate.swift */,
+				281A6768252C815A005B86AB /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281A676B252C815A005B86AB /* ViewController.swift in Sources */,
+				28E03B47252DAC9300CEA767 /* UnLockViewController.swift in Sources */,
+				281A676B252C815A005B86AB /* LogInViewController.swift in Sources */,
 				281A6767252C815A005B86AB /* AppDelegate.swift in Sources */,
 				281A6769252C815A005B86AB /* SceneDelegate.swift in Sources */,
 			);

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fcJ-mb-X7k">
-                                <rect key="frame" x="112.5" y="231" width="150" height="205"/>
+                                <rect key="frame" x="112.5" y="230.5" width="150" height="206"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="depositphotos_72309303-stock-illustration-safety-deposit-box-flat-icon" translatesAutoresizingMaskIntoConstraints="NO" id="pBY-eb-WaV">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -27,12 +27,12 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTS-Ul-GIs">
-                                        <rect key="frame" x="0.0" y="160" width="150" height="45"/>
+                                        <rect key="frame" x="0.0" y="160" width="150" height="46"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                         <color key="textColor" systemColor="systemGray6Color"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" systemColor="systemGrayColor"/>
-                                        <size key="shadowOffset" width="10" height="9"/>
+                                        <size key="shadowOffset" width="10" height="10"/>
                                     </label>
                                 </subviews>
                             </stackView>
