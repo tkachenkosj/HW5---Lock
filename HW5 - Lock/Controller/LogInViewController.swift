@@ -38,17 +38,18 @@ class LogInViewController: UIViewController {
             userNameTextField.text = nil
             passwordTextField.text = nil
         } else if userNameText == "" {
-            showAlert(title: "Failure!", message: "Enter username!")
+            showAlert(title: "Reminder:", message: "Enter your username!")
         } else if passwordText == "" {
-            showAlert(title: "Failure!", message: "Enter password!")
+            showAlert(title: "Reminder:", message: "Enter your password!")
+        } else if attemptsCount == 2 {
+            showAlert(title: "Failure!", message: "Invalid username / password combination! \nUse the tips below.")
+            forgotUserNameButton.isHidden = false
+            forgotPasswordButton.isHidden = false
         } else {
             attemptsCount += 1
             showAlert(title: "Failure!", message: "Invalid username / password combination!")
-        }
-        
-        if attemptsCount == 3 {
-            forgotUserNameButton.isHidden = false
-            forgotPasswordButton.isHidden = false
+            userNameTextField.text = nil
+            passwordTextField.text = nil
         }
     }
     
