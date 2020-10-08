@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28184876252EF92A004CA7C5 /* UIViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28184875252EF92A004CA7C5 /* UIViewGradient.swift */; };
 		281A6767252C815A005B86AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6766252C815A005B86AB /* AppDelegate.swift */; };
 		281A6769252C815A005B86AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A6768252C815A005B86AB /* SceneDelegate.swift */; };
 		281A676B252C815A005B86AB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A676A252C815A005B86AB /* LogInViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28184875252EF92A004CA7C5 /* UIViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradient.swift; sourceTree = "<group>"; };
 		281A6763252C815A005B86AB /* HW5 - Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW5 - Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281A6766252C815A005B86AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		281A6768252C815A005B86AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		281A6765252C815A005B86AB /* HW5 - Lock */ = {
 			isa = PBXGroup;
 			children = (
+				28184875252EF92A004CA7C5 /* UIViewGradient.swift */,
 				281A6774252C815E005B86AB /* Info.plist */,
 				28E03B4C252DACA900CEA767 /* View */,
 				28E03B4D252DACB400CEA767 /* Controller */,
@@ -296,6 +299,7 @@
 				28E03B47252DAC9300CEA767 /* UnLockViewController.swift in Sources */,
 				281A676B252C815A005B86AB /* LogInViewController.swift in Sources */,
 				281A6767252C815A005B86AB /* AppDelegate.swift in Sources */,
+				28184876252EF92A004CA7C5 /* UIViewGradient.swift in Sources */,
 				281A6769252C815A005B86AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

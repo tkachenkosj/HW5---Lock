@@ -12,6 +12,7 @@ class UnLockViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.setGradientBackground(colorOne: .systemIndigo, ColorTwo: .systemPurple)
         // Do any additional setup after loading the view.
     }
     
