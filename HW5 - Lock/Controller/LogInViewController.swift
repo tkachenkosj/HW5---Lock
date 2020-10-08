@@ -30,11 +30,17 @@ class LogInViewController: UIViewController {
 
     @IBAction func pressedLogInButton() {
         
-        guard let userNameText = userNameTextField.text else { return }
-        guard let passwordText = passwordTextField.text else { return }
+        guard let userNameText = userNameTextField.text?.lowercased() else { return }
+        guard let passwordText = passwordTextField.text?.lowercased() else { return }
         
         if userNameText == userName && passwordText == password {
             performSegue(withIdentifier: "goToUnlockScreen", sender: nil)
+            userNameTextField.text = nil
+            passwordTextField.text = nil
+        } else if userNameText == "" {
+            showAlert(title: "Failure!", message: "Enter username!")
+        } else if passwordText == "" {
+            showAlert(title: "Failure!", message: "Enter password!")
         } else {
             attemptsCount += 1
             showAlert(title: "Failure!", message: "Invalid username / password combination!")
@@ -54,6 +60,7 @@ class LogInViewController: UIViewController {
         showAlert(title: "Password", message: "Follow the white (Password)")
     }
     
+    @IBAction func unvindSegue(_ sender: UIStoryboardSegue) {}
     
 }
 
